@@ -70,6 +70,8 @@ projet-red_ShadowOfTheRedSun/
 │   └── monsters.py            # Données des monstres et patterns
 └── README.md                  # Présentation et instructions
 ```
+---
+
 ## 👥 Contribution
 | Nom   | Rôle                 | Contributions principales     |
 | ----- | -------------------- | ----------------------------- |
