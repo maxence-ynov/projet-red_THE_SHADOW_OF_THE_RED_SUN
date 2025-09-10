@@ -19,3 +19,37 @@ Votre mission : **gravir la Tour du Soleil Rouge**, affronter des créatures myt
 ```bash
 git clone https://github.com/votre-utilisateur/projet-red_ShadowOfTheRedSun.git
 cd projet-red_ShadowOfTheRedSun/src
+```
+
+---
+▶ Lancer le jeu
+
+Exécutez la commande suivante dans le dossier src :
+```bash
+go run main.go
+```
+
+---
+# 🎮 Comment jouer
+
+## -Menu principal :
+
+-📜 Afficher les informations du personnage.
+
+- 🎒 Gérer l’inventaire.
+
+- 🏪 Visiter le marchand.
+
+- ⚔ Lancer un combat d’entraînement.
+
+- ❌ Quitter le jeu.
+
+## -Combat tour par tour :
+
+- Attaquez avec votre katana ou un sort.
+
+- Ouvrez votre inventaire pour utiliser une potion.
+
+- Observez les patterns des ennemis pour planifier vos coups.
+
+- Gagnez de l’expérience et progressez vers des ennemis plus puissants.
