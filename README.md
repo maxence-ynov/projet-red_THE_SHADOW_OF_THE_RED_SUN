@@ -14,3 +14,8 @@ Votre mission : **gravir la Tour du Soleil Rouge**, affronter des créatures myt
 - 🎭 **Ambiance narrative** : dialogues et messages immersifs entre les combats.  
 
 ---
+## 🛠 Installation  
+### 1️⃣ Cloner le dépôt  
+```bash
+git clone https://github.com/votre-utilisateur/projet-red_ShadowOfTheRedSun.git
+cd projet-red_ShadowOfTheRedSun/src
