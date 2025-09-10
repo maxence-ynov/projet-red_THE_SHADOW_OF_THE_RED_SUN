@@ -22,7 +22,7 @@ cd projet-red_ShadowOfTheRedSun/src
 ```
 
 ---
-▶ Lancer le jeu
+### ▶ Lancer le jeu
 
 Exécutez la commande suivante dans le dossier src :
 ```bash
@@ -30,9 +30,9 @@ go run main.go
 ```
 
 ---
-# 🎮 Comment jouer
+## 🎮 Comment jouer
 
-## -Menu principal :
+### -Menu principal :
 
 -📜 Afficher les informations du personnage.
 
@@ -44,7 +44,7 @@ go run main.go
 
 - ❌ Quitter le jeu.
 
-## -Combat tour par tour :
+### -Combat tour par tour :
 
 - Attaquez avec votre katana ou un sort.
 
@@ -53,3 +53,31 @@ go run main.go
 - Observez les patterns des ennemis pour planifier vos coups.
 
 - Gagnez de l’expérience et progressez vers des ennemis plus puissants.
+
+---
+## 📁 Structure du projet
+
+```bash
+projet-red_ShadowOfTheRedSun/
+├── docs/
+│   └── gestion_projet.md      # Suivi et organisation du projet
+├── src/
+│   ├── main.py                # Point d’entrée du jeu
+│   ├── character.py           # Gestion du personnage
+│   ├── inventory.py           # Inventaire et objets
+│   ├── merchant.py            # Marchand et crafting
+│   ├── combat.py              # Système de combat
+│   └── monsters.py            # Données des monstres et patterns
+└── README.md                  # Présentation et instructions
+```
+## 👥 Contribution
+| Nom   | Rôle                 | Contributions principales     |
+| ----- | -------------------- | ----------------------------- |
+| Nom 1 | Développeur          | Combat, intégration générale. |
+| Nom 2 | Développeur          | Marchand, économie, crafting. |
+| Nom 3 | Scénariste / Dev     | Narration, menus, tests.      |
+
+---
+
+
+
