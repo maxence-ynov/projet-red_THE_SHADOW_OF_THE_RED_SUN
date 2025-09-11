@@ -17,7 +17,7 @@ Votre mission : **gravir la Tour du Soleil Rouge**, affronter des créatures myt
 ## 🛠 Installation  
 ### 1️⃣ Cloner le dépôt  
 ```bash
-git clone https://github.com/votre-utilisateur/projet-red_ShadowOfTheRedSun.git
+git clone https://github.com/maxence-ynov/projet-red_THE_SHADOW_OF_THE_RED_SUN
 cd projet-red_ShadowOfTheRedSun/src
 ```
 
@@ -70,6 +70,8 @@ projet-red_ShadowOfTheRedSun/
 │   └── monsters.py            # Données des monstres et patterns
 └── README.md                  # Présentation et instructions
 ```
+---
+
 ## 👥 Contribution
 | Nom   | Rôle                 | Contributions principales     |
 | ----- | -------------------- | ----------------------------- |
