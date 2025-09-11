@@ -1,10 +1,10 @@
 # 📋 Document de Gestion de Projet
 
 
-- **Projet :**\ The Shadow of the Red Sun
-- **Cadre :**\ Projet Red
-- **Équipe :**\ Maxence, Yanis, Loïs
-- **Date de début :**\ 11/09/2025
+- **Projet :** The Shadow of the Red Sun
+- **Cadre :** Projet Red
+- **Équipe :** Maxence, Yanis, Loïs
+- **Date de début :** 11/09/2025
 - **Date de rendu :**
 
 ------------------------------------------------------------------------
@@ -29,7 +29,7 @@
 
 ------------------------------------------------------------------------
 
-## \## 3️⃣ Objectifs détaillés
+## 3️⃣ Objectifs détaillés
 
 ------------------------------------------------------------------------
 
@@ -62,4 +62,4 @@
 
 ------------------------------------------------------------------------
 
-## \## 9️⃣ Commentaires ou idées supplémentaires
+## 9️⃣ Commentaires ou idées supplémentaires
