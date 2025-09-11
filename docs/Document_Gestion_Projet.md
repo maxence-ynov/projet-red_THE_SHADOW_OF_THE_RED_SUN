@@ -1,4 +1,4 @@
-# 📋 Document de Gestion de Projet
+# 📋 Document de Gestion du Projet Red
 
 
 - **Projet :** The Shadow of the Red Sun
