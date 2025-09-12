@@ -1,15 +1,15 @@
-package monsters
+package monster
 
-import "src/combat"
+import "YAMA/src/character"
 
-func InitYukiOnna() combat.Monster {
-	return combat.Monster{
+func InitYukiOnna() Monster {
+	return Monster{
 		Nom:        "Yuki-Onna (雪女)",
 		HpMax:      65,
 		HpActuels:  65,
 		Atk:        8,
 		Pattern:    []string{"attack", "iceBlast"},
-		Special:    func(j *combat.Character) {},
+		Special:    func(j *character.Character) {},
 		RewardOr:   30,
 		RewardItem: "Cristal de glace",
 	}

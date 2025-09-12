@@ -1,13 +1,13 @@
 package combat
 
 import (
-	monsters "YAMA/src/monster"
+	"YAMA/src/character"
+	"YAMA/src/monster"
 	"fmt"
-	"src/character"
 )
 
 func TrainingFight(j *character.Character) {
-	monstre := monsters.InitKappa()
+	monstre := monster.InitKappa()
 	fmt.Println("\n Combat d'entraînement ! Affrontez le Kappa d'entraînement !")
 
 	for j.HpActuels > 0 && monstre.HpActuels > 0 {

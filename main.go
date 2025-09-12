@@ -9,13 +9,13 @@ import (
 func main() {
 	// Création du personnage
 	joueur := character.InitCharacter(
-		Nom:"Aiko (愛子)",
-		"Samouraï (侍)",
-		1,
-		120,
-		30,
-		[]string{"Katana (刀)", "Yoroi no Tate (鎧の盾)"},
-		100,
+		"Aiko (愛子)",    // Nom
+		"Samouraï (侍)", // Classe
+		1,              // Niveau
+		120,            // PV max
+		120,            // PV actuels
+		100,            // Pièces d'or
+		[]string{"Katana (刀)", "Yoroi no Tate (鎧の盾)"}, // Inventaire
 	)
 
 	for {
@@ -24,7 +24,7 @@ func main() {
 		fmt.Println("2. Voir l'inventaire")
 		fmt.Println("3. Utiliser un objet")
 		fmt.Println("4. Aller au marchand")
-		fmt.Println("5. Entrainement")
+		fmt.Println("5. Entraînement")
 		fmt.Println("6. Forgeron")
 		fmt.Println("7. Quitter")
 		fmt.Print("Choix : ")

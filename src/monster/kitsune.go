@@ -1,15 +1,15 @@
-package monsters
+package monster
 
-import "YAMA/src/combat"
+import "YAMA/src/character"
 
-func InitKitsune() combat.Monster {
-	return combat.Monster{
+func InitKitsune() Monster {
+	return Monster{
 		Nom:        "Kitsune (狐)",
 		HpMax:      50,
 		HpActuels:  50,
 		Atk:        7,
 		Pattern:    []string{"attack", "illusion"},
-		Special:    func(j *combat.Character) {},
+		Special:    func(j *character.Character) {},
 		RewardOr:   25,
 		RewardItem: "Thé du Kitsune (狐茶)",
 	}

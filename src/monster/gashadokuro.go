@@ -1,12 +1,9 @@
-package monsters
+package monster
 
-import (
-	"YAMA/src/character"
-	"YAMA/src/combat"
-)
+import "YAMA/src/character"
 
-func InitGashadokuro() combat.Monster {
-	return combat.Monster{
+func InitGashadokuro() Monster {
+	return Monster{
 		Nom:        "Gashadokuro (餓者髑髏)",
 		HpMax:      100,
 		HpActuels:  100,

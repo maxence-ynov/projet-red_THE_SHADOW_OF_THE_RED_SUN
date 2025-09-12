@@ -1,12 +1,9 @@
-package monsters
+package monster
 
-import (
-	"YAMA/src/character"
-	"YAMA/src/combat"
-)
+import "YAMA/src/character"
 
-func InitKappa() combat.Monster {
-	return combat.Monster{
+func InitKappa() Monster {
+	return Monster{
 		Nom:        "Kappa (河童)",
 		HpMax:      40,
 		HpActuels:  40,

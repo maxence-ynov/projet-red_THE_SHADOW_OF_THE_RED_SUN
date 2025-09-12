@@ -1,12 +1,9 @@
-package monsters
+package monster
 
-import (
-	"YAMA/src/character"
-	"YAMA/src/combat"
-)
+import "YAMA/src/character"
 
-func InitNureOnna() combat.Monster {
-	return combat.Monster{
+func InitNureOnna() Monster {
+	return Monster{
 		Nom:        "Nure-Onna (濡女)",
 		HpMax:      55,
 		HpActuels:  55,

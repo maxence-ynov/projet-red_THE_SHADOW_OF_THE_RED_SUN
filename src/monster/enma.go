@@ -1,12 +1,11 @@
-package monsters
+package monster
 
 import (
 	"YAMA/src/character"
-	"YAMA/src/combat"
 )
 
-func InitEnma() combat.Monster {
-	return combat.Monster{
+func InitEnma() Monster {
+	return Monster{
 		Nom:        "Enma (閻魔)",
 		HpMax:      120,
 		HpActuels:  120,

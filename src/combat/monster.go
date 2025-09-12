@@ -2,21 +2,11 @@ package combat
 
 import (
 	"YAMA/src/character"
+	"YAMA/src/monster"
 	"fmt"
 )
 
-type Monster struct {
-	Nom        string
-	HpMax      int
-	HpActuels  int
-	Atk        int
-	Pattern    []string
-	Special    func(*character.Character)
-	RewardOr   int
-	RewardItem string
-}
-
-func PlayerTurn(j *character.Character, m *Monster) {
+func PlayerTurn1(j *character.Character, m *monster.Monster) {
 	fmt.Println("\n=== Tour du joueur ===")
 	fmt.Println("1. Attaquer")
 	fmt.Println("2. Utiliser un objet")
@@ -40,7 +30,7 @@ func PlayerTurn(j *character.Character, m *Monster) {
 	}
 }
 
-func MonsterTurn(j *character.Character, m *Monster) {
+func MonsterTurn(j *character.Character, m *monster.Monster) {
 	fmt.Println("\n=== Tour du monstre ===")
 	dmg := m.Atk
 	j.HpActuels -= dmg
