@@ -62,12 +62,13 @@ projet-red_ShadowOfTheRedSun/
 ├── docs/
 │   └── gestion_projet.md      # Suivi et organisation du projet
 ├── src/
-│   ├── main.py                # Point d’entrée du jeu
-│   ├── character.py           # Gestion du personnage
-│   ├── inventory.py           # Inventaire et objets
-│   ├── merchant.py            # Marchand et crafting
-│   ├── combat.py              # Système de combat
-│   └── monsters.py            # Données des monstres et patterns
+│   ├── main.go           # Point d’entrée du jeu
+│   ├── character.go           # Gestion du personnage
+│   ├── inventory.go           # Inventaire et objets
+│   ├── merchant.go            # Marchand et crafting
+│   ├── combat.go              # Système de combat
+│   └── monsters.go            # Données des monstres et patterns
+│   └── blacksmith.go          # Forgeron
 └── README.md                  # Présentation et instructions
 ```
 ---
