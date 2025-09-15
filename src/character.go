@@ -1,4 +1,4 @@
-package main
+package src
 
 import "fmt"
 
@@ -14,7 +14,7 @@ type Character struct {
 }
 
 // Fonction pour initialiser un personnage
-func initCharacter(nom string, classe string, niveau int, hpMax int, hpActuels int, inventaire []string, or int) Character {
+func InitCharacter(nom string, classe string, niveau int, hpMax int, hpActuels int, inventaire []string, or int) Character {
 	return Character{
 		nom:        nom,
 		classe:     classe,
@@ -27,7 +27,7 @@ func initCharacter(nom string, classe string, niveau int, hpMax int, hpActuels i
 }
 
 // Afficher les infos du personnage
-func displayInfo(c Character) {
+func DisplayInfo(c Character) {
 	fmt.Println("=== Informations du personnage ===")
 	fmt.Println("Nom :", c.nom)
 	fmt.Println("Classe :", c.classe)
@@ -39,7 +39,7 @@ func displayInfo(c Character) {
 }
 
 // Afficher l’inventaire
-func accessInventory(c Character) {
+func AccessInventory(c Character) {
 	fmt.Println("=== Inventaire ===")
 	if len(c.inventaire) == 0 {
 		fmt.Println("Inventaire vide !")
@@ -52,7 +52,7 @@ func accessInventory(c Character) {
 }
 
 // Utiliser un objet
-func useItem(c *Character) {
+func UseItem(c *Character) {
 	if len(c.inventaire) == 0 {
 		fmt.Println("Votre Inventaire est vide !")
 		return

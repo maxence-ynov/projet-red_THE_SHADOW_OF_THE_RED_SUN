@@ -1,4 +1,4 @@
-package main
+package src
 
 import "fmt"
 
@@ -19,7 +19,7 @@ func playerTurn(j *Character, m *Monster) {
 		}
 		fmt.Printf("⚔️ %s inflige %d dégâts à %s ! PV restant du monstre : %d/%d\n", j.nom, dmg, m.nom, m.hpActuels, m.hpMax)
 	case 2:
-		UseItem(j)
+	UseItem(j)
 	default:
 		fmt.Println("Choix invalide !")
 	}
@@ -37,7 +37,7 @@ func monsterTurn(j *Character, m *Monster) {
 }
 
 // Combat d'entraînement complet
-func trainingFight(j *Character) {
+func TrainingFight(j *Character) {
 	monstre := InitKappa()
 	fmt.Println("\n Combat d'entraînement ! Affrontez le Kappa d'entraînement !")
 	for j.hpActuels > 0 && monstre.hpActuels > 0 {

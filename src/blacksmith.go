@@ -1,9 +1,9 @@
-package main
+package src
 
 import "fmt"
 
 // Fonction du forgeron
-func blacksmithJP(c *Character) {
+func BlacksmithJP(c *Character) {
 	for {
 		fmt.Println("\n🔥🏯 Bienvenue au Forgeron Japonais 🏯🔥")
 		fmt.Println("1. 🗡️ Kabuto du guerrier (兜) - +10 PV max (5 pièces) 🐗🪶")

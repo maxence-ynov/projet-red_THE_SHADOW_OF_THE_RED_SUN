@@ -1,10 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"YAMA/src"
+	"fmt"
+)
 
 func main() {
 	// Création du personnage
-	joueur := initCharacter(
+	joueur := src.InitCharacter(
 		"Aiko (愛子)",
 		"Samouraï (侍)",
 		1,
@@ -50,17 +53,17 @@ func main() {
 		fmt.Scanln(&choix)
 		switch choix {
 		case 1:
-			displayInfo(joueur)
+			src.DisplayInfo(joueur)
 		case 2:
-			AccessInventory(joueur)
+			src.AccessInventory(joueur)
 		case 3:
-			UseItem(&joueur)
+			src.UseItem(&joueur)
 		case 4:
-			Merchant(&joueur)
+			src.Merchant(&joueur)
 		case 5:
-			trainingFight(&joueur)
+			src.TrainingFight(&joueur)
 		case 6:
-			blacksmithJP(&joueur)
+			src.BlacksmithJP(&joueur)
 		case 7:
 			fmt.Println("👋 Au revoir !")
 			return
