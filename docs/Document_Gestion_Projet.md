@@ -46,8 +46,8 @@
 ## 5️⃣ Gestion des ressources
 
 -   **Temps estimé par membre :**\
--   **Outils utilisés :**\
--   **Langage choisi :**
+-   **Outils utilisés :**\ VScode, Github Desktop
+-   **Langage choisi :** Golang
 
 
 ------------------------------------------------------------------------
