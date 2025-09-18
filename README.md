@@ -76,9 +76,9 @@ projet-red_ShadowOfTheRedSun/
 ## 👥 Contribution
 | Nom   | Rôle                 | Contributions principales     |
 | ----- | -------------------- | ----------------------------- |
-| Nom 1 | Développeur          | Combat, intégration générale. |
-| Nom 2 | Développeur          | Marchand, économie, crafting. |
-| Nom 3 | Scénariste / Dev     | Narration, menus, tests.      |
+| jkr972| Développeur          | Combat, intégration générale. |
+|yan1s973| Développeur         | Marchand, économie, docu.     |
+| max | Scénariste / Dev       | Narration, menus, tests.        |
 
 ---
 
